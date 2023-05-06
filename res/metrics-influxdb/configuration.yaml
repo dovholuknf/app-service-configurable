@@ -36,7 +36,7 @@ Writable:
     Interval: "0s" # Don't report any metrics as that would be cyclic with this profiles' processing.
 
 Service:
-  Host: "localhost"
+  Host: "localhost11"
   Port: 59707
   StartupMsg: "app-metrics-influxdb has Started"
 
