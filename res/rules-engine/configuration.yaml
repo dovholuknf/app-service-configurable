@@ -28,7 +28,11 @@ Writable:
 Service:
   Host: "localhost"
   Port: 59701
-  StartupMsg: "app-rules-engine has Started"
+  StartupMsg: "app-rules-engine has Started a"
+  SecurityOptions:
+    Mode: ""
+    OpenZitiController: "openziti:1280"
+    OpenZitiServiceName: "edgex.app-rules-engine"
 
 MessageBus:
   Optional:
@@ -38,3 +42,15 @@ Trigger:
   # Note that the MessageBus connection above is used by edgex-messagebus trigger which is the default set in common config
   # Default value for SubscribeTopics is aslo set in common config
   PublishTopic: "rules-events"  # Base topic is prepened to this topic when using edgex-messagebus
+
+Clients:
+  core-metadata:
+    Protocol: http
+    Host: "core-data.edgex.ziti"
+    Port: 80
+    SecurityOptions:
+      Mode: ""
+      OpenZitiController: "openziti:1280"
+      OpenZitiServiceName: "edgex.core-data"
+      OpenZitiIdentityFile_: ""
+      OpenZitiAuthTokenFile: ""
