@@ -46,11 +46,9 @@ Trigger:
 Clients:
   core-metadata:
     Protocol: http
-    Host: "core-data.edgex.ziti"
-    Port: 80
+    Host: localhost
+    Port: 59881
     SecurityOptions:
       Mode: ""
       OpenZitiController: "openziti:1280"
       OpenZitiServiceName: "edgex.core-data"
-      OpenZitiIdentityFile_: ""
-      OpenZitiAuthTokenFile: ""
