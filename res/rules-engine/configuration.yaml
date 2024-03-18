@@ -51,4 +51,4 @@ Clients:
     SecurityOptions:
       Mode: ""
       OpenZitiController: "openziti:1280"
-      OpenZitiServiceName: "edgex.core-data"
+      OpenZitiServiceName: "edgex.core-metadata"
