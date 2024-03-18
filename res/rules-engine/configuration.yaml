@@ -28,7 +28,7 @@ Writable:
 Service:
   Host: "localhost"
   Port: 59701
-  StartupMsg: "app-rules-engine has Started a"
+  StartupMsg: "app-rules-engine has Started"
   SecurityOptions:
     Mode: ""
     OpenZitiController: "openziti:1280"
