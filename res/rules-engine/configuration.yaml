@@ -26,9 +26,14 @@ Writable:
           FilterOut: "false"
 
 Service:
-  Host: "localhost"
-  Port: 59701
+  Host: "rules-engine.edgex.ziti"
+  Port: 80
   StartupMsg: "app-rules-engine has Started"
+  ListenMode: "zerotrust"
+  ListenOptions:
+    OpenZitiController: "ec2-3-134-108-218.us-east-2.compute.amazonaws.com:8441"
+    OpenZitiServiceName: "edgex.rules-engine"
+    IdentityFile: "/mnt/v/temp/curlz.json"
 
 MessageBus:
   Optional:
