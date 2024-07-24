@@ -13,7 +13,6 @@ require (
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/diegoholiveira/jsonlogic/v3 v3.5.3 // indirect
 	github.com/eclipse/paho.mqtt.golang v1.4.3 // indirect
-	github.com/edgexfoundry/app-functions-sdk-go v1.3.1 // indirect
 	github.com/edgexfoundry/go-mod-bootstrap/v3 v3.2.0-dev.48 // indirect
 	github.com/edgexfoundry/go-mod-configuration/v3 v3.2.0-dev.11 // indirect
 	github.com/edgexfoundry/go-mod-core-contracts/v3 v3.2.0-dev.30 // indirect
